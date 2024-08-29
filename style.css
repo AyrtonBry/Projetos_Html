@@ -1,0 +1,44 @@
+body {    font-family: 'Times New Roman', Times, serif;
+background-color: black;
+color: white;}
+
+.headi {
+    font-size: 50px;
+    font-style: oblique;
+    color: red;
+    border-bottom: solid 4px;
+    border-color: blue;
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.motivo {
+text-justify: auto;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.Biologia {
+    display: flex; 
+    font-size: 20px; 
+    margin-bottom: 15px;
+    margin-top: 20px;
+    overflow-x: auto;
+    gap: 20px; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.video1 {
+    display: flex; 
+    flex-wrap: nowrap; 
+    gap: 20px; 
+    overflow-x: auto; 
+}
+
+.video1 iframe {
+    flex: 0 0 auto; 
+    width: 560px;   
+    height: 315px;  
+}
